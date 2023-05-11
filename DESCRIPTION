@@ -1,11 +1,11 @@
 Package: renaming_inspector
-Title: Renaming data merge, clean data and extracting top 3  
-Version: 1.1
+Title: Renaming data merge and clean data  
+Version: 0.0.0.9000
 Authors@R: c(
     person("Zaki", "Ebrahimi", email= "zaki.ebrahimi@reach-initiative.org", role = c("aut", "cre")))
 
 Description: This package is used for renaming columns of data merge and clean data according to it's tool and extracts the TOP N choices as well 
-License: well talk later
+License: MIT
 Encoding: UTF-8
 LazyData: true
 Suggests: 
