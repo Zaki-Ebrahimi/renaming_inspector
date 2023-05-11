@@ -153,7 +153,7 @@ data_merge_renamer <- function(data_merge_path = data_merge_path, tool_path = to
 
 
 # TOP N FUNCTION 
-top_n_function <- function(analysis_results = analysis_results, survey = survey, top_n){
+top_n_extractor <- function(analysis_results = analysis_results, survey = survey, top_n){
   #### TOBE REMOVED ####
   #### JUST TO FIND THE QUESTIONS FROM LAST DATAMERGE
   analysis_results <- read.csv(analysis_results)

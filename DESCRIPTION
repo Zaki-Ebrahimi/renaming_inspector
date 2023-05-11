@@ -1,0 +1,23 @@
+Package: renaming_inspector
+Title: Renaming data merge, clean data and extracting top 3  
+Version: 1
+Authors@R: c(
+    person("Zaki Ebrahimi", 
+    role = "Database Officer", 
+    email = "zaki.ebrahimi@reach-initiative.org"))
+
+Description: This package is used for renaming columns of data merge and clean data according to it's tool and extracts the TOP N choices as well 
+License: well talk later
+Encoding: UTF-8
+LazyData: true
+Suggests: 
+    testthat,
+    rmarkdown
+VignetteBuilder: knitr
+RoxygenNote: 6.1.1
+Roxygen: list(markdown = TRUE)
+Depends: 
+    dplyr
+Imports: 
+    tidyr,
+    magrittr
