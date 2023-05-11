@@ -12,10 +12,18 @@ Suggests:
     testthat,
     rmarkdown
 VignetteBuilder: knitr
-RoxygenNote: 6.1.1
 Roxygen: list(markdown = TRUE)
-Depends: 
-    dplyr
+RoxygenNote: 7.2.3
 Imports: 
+    dplyr,
+    tibble,
+    magrittr,
     tidyr,
-    magrittr
+    stringr,
+    openxlsx,
+    stats,
+    utils
+Suggests: 
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+LazyData: true
